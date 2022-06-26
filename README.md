@@ -8,12 +8,13 @@ The project goal is to support VR users with a low-cost VR headset to interact w
 For that, a prototype of a computer vision system using a "regular" webcam was built to perform hand-pose estimation on the user hands. 
 The hand-pose estimation is than transmited to a virtual environment developed in Unity. 
 This is a simple prototype but it can be used as example on how to use the develope VR software.
+
 A comparison between the developed systems and the commercial Leapmotion hand recognition system has been carried out.
-We created a hand-pose estimation benchmark consisting in a set of videos.
+We created a hand-pose estimation dataset consisting in a set of videos.
 Each video shows a user making different sorts of gestures, i.e., static gestures, slow-moving gestures, and fast-moving gestures.
 
 This project was created in the context of a bachelor's final thesis in the Computer Engineering course of Federal University of Technology - Paraná (UTFPR), campus Curitiba, by Lucas Kuttner Amin and Rafael Hideo Toyomoto supervised by Prof. Marco Wehrmeister.
-In addition to the source code and the benchmark dataset, this work has evaluated qualitatively the advantages regarding the range of motion and interaction between the hands and disadvantages in the performance of image capture and processing.
+In addition to the source code and the videos dataset, this work has evaluated qualitatively the advantages regarding the range of motion and interaction between the hands and disadvantages in the performance of image capture and processing.
 Pros and cons of the propose VR software have been analysed and discussed.
 The full text of this bachelor's theis (in Portuguese) can be found in http://repositorio.utfpr.edu.br/jspui/
 
