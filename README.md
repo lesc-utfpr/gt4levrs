@@ -15,6 +15,7 @@ Each video shows a user making different sorts of gestures, i.e., static gesture
 This project was created in the context of a bachelor's final thesis in the Computer Engineering course of Federal University of Technology - Paraná (UTFPR), campus Curitiba, by Lucas Kuttner Amin and Rafael Hideo Toyomoto supervised by Prof. Marco Wehrmeister.
 In addition to the source code and the benchmark dataset, this work has evaluated qualitatively the advantages regarding the range of motion and interaction between the hands and disadvantages in the performance of image capture and processing.
 Pros and cons of the propose VR software have been analysed and discussed.
+The full text of this bachelor's theis (in Portuguese) can be found in http://repositorio.utfpr.edu.br/jspui/
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
