@@ -28,3 +28,76 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+---
+
+# Quick Starting
+
+## Requirements
+
+- Python 3.6.x or superior
+- Unity 3D 2020 or superior
+
+## Opening and starting GT4LEVRS
+
+Navigate into `handtracking` folder and open it as a python project (we used PyCharm IDE).
+
+```Bash
+cd handtracking
+```
+
+Install all requirements from `requirement.txt`.
+
+```Bash
+pip install -r requirements.txt
+```
+
+
+You can activate differents debugging modes by global flags configuration. Open the following script:
+
+```
+src/app/config.py
+```
+
+and change the values inside the class `DebugOption` as you wish.
+
+Then, navigate into source folder:
+
+```Bash
+cd src
+```
+
+create a logs folder at running location, required for execution:
+
+```Bash
+mkdir logs
+```
+
+and run the runner script:
+
+```Bash
+python run.py
+```
+
+> If you are using PyCharm, you can create a running configuration with `src/app/main.py` script just running it. Remember, with that approach you will need create the `logs` folder on `src/app/` instead of `src/`.
+
+This command starts your webcam and serves data at port 5555 for Unity example application.
+
+## Running Unity Examples:
+
+Open the Unity project inside `UnityProject` folder with Unity Editor.
+
+Choose a scene inside the following folder:
+
+```Bash
+UnityProject/Assets/Scenes/
+```
+
+- `Test 3D Hand.unity` : Scene with 3D hand model tracked by data from python server 
+- `Test Simple Hand.unity` : Scene with generated skeleton hands by data from python server
+
+Sample hands model configured with GT4LEVRS listener script are on folliwing folder:
+
+```
+UnityProject/Assets/HandTrackingSystem/Prefabs/
+```
